@@ -14,7 +14,7 @@ except ModuleNotFoundError:
 	os.system('python trt.py')
 	
 print('\033[1;33m[♥] Follower My Account')
-os.systen('xdg-open https://www.facebook.com/KaungMyat67236')
+os.system('xdg-open https://www.facebook.com/KaungMyat67236')
 
 android_models=[]
 try:
