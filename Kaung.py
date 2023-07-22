@@ -202,7 +202,7 @@ tokenku=[]
 def menu():
 			clear()
 		#	linex()
-			print(' [1] File cloning\n [2] Random cloning\n [3] gmail cloning \n [4] Contact on whatsapp \n [0] Exit menu')
+			print(' \033[1;32m[1] File cloning\n \033[1;32m[2] Random cloning\n \033[1;32m[3] gmail cloning \n \033[1;32m[4] Contact on whatsapp \n [0] Exit menu')
 			linex()
 			xd=input(' Choose an option: ')
 			if xd in ['1','01']:
@@ -236,7 +236,7 @@ def menu():
 				clear()
 				print(' Do you went show cp account? (y/n): ')
 				linex()
-				cx=input(' Choose: ')
+				cx=input('\033[1;32m Choose: ')
 				if cx in ['y','Y','yes','Yes','1']:
 					pcp.append('y')
 				else:
